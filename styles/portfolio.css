@@ -33,7 +33,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 50px 50px 150px;
+  padding: 50px 50px 50px 130px;
 }
 nav ul li {
   display: inline-block;
@@ -55,8 +55,10 @@ nav li > a {
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 6%;
+  margin-left: 50px;  
+}
+.head-section{
   background-color: #fff8f4;
-
 }
 
 /* intro related styles */
@@ -64,7 +66,7 @@ nav li > a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 80px;
   background: url(../Assets/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -97,4 +99,12 @@ nav li > a {
 }
 .intro-content button{
   margin-right: 20px;
+}
+
+/* About Me related styles */
+.about-me{
+  margin: 150px;
+  background-color: #fff8f4;
+  padding: 150px;
+
 }
