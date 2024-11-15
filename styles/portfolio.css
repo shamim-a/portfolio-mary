@@ -58,7 +58,7 @@ nav li > a {
   margin-left: 50px;  
 }
 .head-section{
-  background-color: #fff8f4;
+  background-color: #fef0e8;
 }
 
 /* intro related styles */
@@ -103,8 +103,37 @@ nav li > a {
 
 /* About Me related styles */
 .about-me{
-  margin: 150px;
-  background-color: #fff8f4;
-  padding: 150px;
+  margin: 100px 150px;
+  background-color: #fef0e8;
+  padding: 100px 150px;
+  border-radius: 10px;
 
+}
+.about-me h2{
+  margin-bottom: 40px;
+  text-align: center;
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+}
+.about-decription{
+  color: #656565;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+.about-details{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.about-details .title{
+  color: #656565;
+  text-align: center;
+  line-height: 28px;
+}
+.about-details .title-value{
+  color:#3e3e3e;
+  text-align: center;
 }
