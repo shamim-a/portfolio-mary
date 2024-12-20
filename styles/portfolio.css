@@ -168,7 +168,7 @@ nav li > a {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-.decription{
+.description{
   font-size: 14px;
   color: #757575;
   line-height: 30px;
@@ -211,6 +211,45 @@ nav li > a {
   padding: 10px 0px;
 }
 .btn{
-  padding-top: 20px;
+  padding: 25px 0px;
   text-align: center;
+}
+
+/* Footer related style  */
+footer{
+  background-color: #FFF8F3;
+  height: 70vh;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+  column-gap: 70px;
+}
+.footer-container h2{
+  margin-bottom: 20px;
+  text-align: left;
+  color: #181818;
+  font-size: 28px;
+  font-weight: 700;
+}
+.footer-outro{
+  width: 50%;
+}
+.footer-outro a{
+  text-decoration: none;
+  padding-right: 14px;
+  color: #fd6e0a;
+}
+.get-in-touch input, textarea{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0px;
+  border: none;
+}
+.get-in-touch input:focus, textarea:focus {
+  outline:2px solid #fd6e0a;
+}
+.get-in-touch{
+  width: 50%;
 }
