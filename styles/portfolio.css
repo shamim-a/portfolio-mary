@@ -113,7 +113,7 @@ nav li > a {
   margin-bottom: 40px;
   text-align: center;
   color: #212121;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
 }
 .about-decription{
@@ -121,7 +121,7 @@ nav li > a {
   text-align: center;
   font-size: 16px;
   line-height: 24px;
-  padding-bottom: 10px;
+  padding: 0px 12px 10px 12px;
 }
 .about-details{
   display: flex;
@@ -136,4 +136,45 @@ nav li > a {
 .about-details .title-value{
   color:#3e3e3e;
   text-align: center;
+}
+.what-i-do{
+  padding: 0 150px;
+}
+.what-i-do-info{
+  text-align: center;
+  padding: 0 120px;
+}
+.what-i-do-info h3{
+  color: #212121;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.what-i-do-info p{
+  color: #656565;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  
+}
+/* My work cards style */
+
+.my-work-card-Cotainer{
+  display: flex;
+  column-gap: 24px;
+  margin: 40px 0px;
+}
+.my-work-card{
+  padding: 30px;
+  box-shadow: 0px 8px 24px 0px #dedede;
+  border-radius: 10px;
+}
+.work-title{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.work-decription{
+  font-size: 13px;
+  color: #656565;
+  line-height: 26px;
 }
