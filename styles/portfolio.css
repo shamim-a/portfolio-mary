@@ -26,7 +26,13 @@ body {
   cursor: pointer;
   color: #fd6e0a;
 }
-
+h2{
+  margin-bottom: 40px;
+  text-align: center;
+  color: #181818;
+  font-size: 28px;
+  font-weight: 700;
+}
 /* Nav Related Styles */
 
 nav {
@@ -109,13 +115,7 @@ nav li > a {
   border-radius: 10px;
 
 }
-.about-me h2{
-  margin-bottom: 40px;
-  text-align: center;
-  color: #212121;
-  font-size: 32px;
-  font-weight: 700;
-}
+
 .about-decription{
   color: #656565;
   text-align: center;
@@ -144,12 +144,7 @@ nav li > a {
   text-align: center;
   padding: 0 120px;
 }
-.what-i-do-info h3{
-  color: #212121;
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
+
 .what-i-do-info p{
   color: #656565;
   text-align: center;
@@ -173,8 +168,49 @@ nav li > a {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-.work-decription{
-  font-size: 13px;
-  color: #656565;
-  line-height: 26px;
+.decription{
+  font-size: 14px;
+  color: #757575;
+  line-height: 30px;
+}
+
+/* Resume summary style */
+.resume{
+  padding: 80px 150px;
+}
+.resume-container{
+  margin-top: 30px;
+  padding-top: 35px;
+  display: flex;
+  column-gap: 28px;
+}
+.resume-container h2{
+  margin-bottom: 20px;
+  text-align: start;
+  color: #474747;
+  font-size: 26px;
+  font-weight: 700;
+}
+.devider{
+  margin: 14px 0px;
+  color: #D1D1D1;
+}
+.r-title{
+  color: #474747;
+  font-size: 22px;
+  font-weight: 700;
+}
+.institute-name{
+  color: #757575;
+  margin: 15px 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.degree{
+  width: 80%;
+  padding: 10px 0px;
+}
+.btn{
+  padding-top: 20px;
+  text-align: center;
 }
